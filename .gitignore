@@ -398,5 +398,7 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,intellij,intellij+all,intellij+iml,visualstudiocode,java,kotlin,netbeans,gradle
+# Application YAML
 src/main/resources/application.yaml
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,intellij,intellij+all,intellij+iml,visualstudiocode,java,kotlin,netbeans,gradle
