@@ -1,10 +1,9 @@
 ---
 name: "🐛 Bug Report"
-description: "버그를 발견했을 때 작성해주세요."
-title: "[BUG] "
+about: "버그를 발견했을 때 작성해주세요."
+title: "[BUG]: [BUG NAME]"
 labels: ["bug 🐛"]
 assignees: ''
-
 ---
 
 ## 🐛 버그 설명 (Bug Description)
