@@ -1,4 +1,4 @@
-package com.wintercloud.wintercloudgateway.filter
+package com.wintercloud.gateway.filter
 
 import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.cloud.gateway.filter.GatewayFilterChain
