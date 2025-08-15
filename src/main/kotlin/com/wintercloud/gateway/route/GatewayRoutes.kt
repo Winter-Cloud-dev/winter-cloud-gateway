@@ -1,6 +1,6 @@
-package com.wintercloud.wintercloudgateway.route
+package com.wintercloud.gateway.route
 
-import com.wintercloud.wintercloudgateway.filter.AuthenticationFilter
+import com.wintercloud.gateway.filter.AuthenticationFilter
 import org.springframework.cloud.gateway.route.RouteLocator
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder
 import org.springframework.context.annotation.Bean

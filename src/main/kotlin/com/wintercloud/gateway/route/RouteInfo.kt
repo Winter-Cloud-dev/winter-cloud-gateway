@@ -1,4 +1,4 @@
-package com.wintercloud.wintercloudgateway.route
+package com.wintercloud.gateway.route
 
 /**
  * Spring Cloud Gateway의 라우트 정보를 타입 안전(type-safe)하게 관리하기 위한 열거형 클래스.
