@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 
 @Configuration
-class GatewayRoutes(
+class WinterCloudGatewayRoutes(
     private val authenticationFilter: AuthenticationFilter,
 ) {
 
@@ -17,6 +17,10 @@ class GatewayRoutes(
             .route(
                 routeInfo = RouteInfo.USER_SERVICE,
                 requiresAuth = true
+            )
+            .route(
+                routeInfo = RouteInfo.AUTH_SERVICE,
+                requiresAuth = false
             )
             .build()
 
