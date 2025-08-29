@@ -22,6 +22,10 @@ class WinterCloudGatewayRoutes(
                 routeInfo = RouteInfo.AUTH_SERVICE,
                 requiresAuth = false
             )
+            .route(
+                routeInfo = RouteInfo.ROOM_SERVICE,
+                requiresAuth = true
+            )
             .build()
 
     fun RouteLocatorBuilder.Builder.route(
